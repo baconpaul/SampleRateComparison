@@ -1,0 +1,6 @@
+[submodule "lib/libsamplerate"]
+	path = lib/libsamplerate
+	url = https://github.com/libsndfile/libsamplerate.git
+[submodule "lib/r8brain-free-src"]
+	path = lib/r8brain-free-src
+	url = https://github.com/avaneev/r8brain-free-src
