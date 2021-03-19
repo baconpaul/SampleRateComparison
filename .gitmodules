@@ -4,3 +4,6 @@
 [submodule "lib/r8brain-free-src"]
 	path = lib/r8brain-free-src
 	url = https://github.com/avaneev/r8brain-free-src
+[submodule "lib/speexdsp"]
+	path = lib/speexdsp
+	url = https://github.com/xiph/speexdsp.git
