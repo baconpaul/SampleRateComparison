@@ -5,7 +5,7 @@
 
 int main() {
     int err;
-    auto sps = speex_resampler_init(1, 48000, 88200, 10, &err);
+    auto sps = speex_resampler_init(1, 48000, 88200, 7, &err);
     if( err != RESAMPLER_ERR_SUCCESS )
     {
         std::cout << "Sad Trombone" << std::endl;
@@ -23,7 +23,7 @@ int main() {
     std::ofstream f881( "speex882.csv");
 
     int is=0, os=0;
-    for( int i=0; i<500; ++i )
+    for( int i=0; i<10; ++i )
     {
         for( int s=0; s<blocksz; ++s)
         {
